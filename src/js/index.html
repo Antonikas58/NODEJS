@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	
+	<style>
+.container {
+  width: 150px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+</style>
+</head>
+<body>
+ <div class="container">
+    <form action="/Users/" method="post">
+	    <h1> Users </h1>
+        Name:     <input name="UserName" type="text" /> <br />
+        Password: <input name="UserPassword" type="password" /> <br />
+	    Email:    <input name="UserEmail" type="text" /> <br />
+        <input type="submit" /> <br />
+		
+		
+    </form>
+	    <form action="/Workers/" method="post">
+		<h1> Workers </h1>
+        Name:       <input name="WorkerName" type="text" /> <br />
+        Password:   <input name="WorkerPassword" type="password" /> <br />
+	    Email:      <input name="WorkerEmail" type="text" /> <br />
+		Experience: <input name="WorkerExp" type="text" /> <br />
+        <input type="submit" /> <br />
+    </form>
+	 </div>
+	 
+	  <div class="container">
+    <form action="/Users" method="get">
+	<br />
+	<br />
+	<br />
+        <input type="submit" value="Get users" />
+		
+    </form>
+	    <form action="/Workers" method="get">
+	<br />
+
+        <input type="submit" value="Get workers" />
+		
+    </form>
+	 </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+cd /d D:\CLOUD DEV\HW1\src\build
